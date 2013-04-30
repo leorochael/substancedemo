@@ -1,0 +1,8 @@
+# Consider moving the lines in this block into ./setup.py as
+# development links and/or version pins
+ZODB3==3.10.5
+-e git+git://github.com/Pylons/substanced.git#egg=substanced
+-e git+git://github.com/madjar/relstorage.git#egg=RelStorage[postgresql]
+
+# The package itself:
+-e .
