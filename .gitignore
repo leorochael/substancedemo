@@ -1,0 +1,14 @@
+/Data.fs*
+/bin
+/build
+/blobs/*
+/include
+/lib
+/local
+/src
+/.env
+/.project
+/.pydevproject
+/*.egg-info
+*~
+*.pyc
